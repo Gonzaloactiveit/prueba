@@ -26,7 +26,7 @@ function decodeToken (token){
                 })
             }
 
-            resolve(paylod.sub)
+            resolve(payload.sub)
         } catch(err) {
             reject({
                 status: 500,
